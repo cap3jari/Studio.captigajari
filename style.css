@@ -1,0 +1,114 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #ffd700;
+  }
+  
+  /* Hero */
+  .hero {
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #000;
+    background-blend-mode: overlay;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  /* Galeri */
+  .galeri {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .galeri .grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .foto {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 10px;
+    width: 300px;
+    transition: transform 0.3s ease;
+  }
+  
+  .foto:hover {
+    transform: scale(1.05);
+  }
+  
+  .foto img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .foto p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Kontak */
+  .kontak {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .kontak a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .kontak a:hover {
+    color: #0077cc;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
